@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2843EB320503371002C272D /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2843EB220503371002C272D /* CadastroViewController.swift */; };
 		F29052D8204D794300EA7E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29052D7204D794300EA7E48 /* AppDelegate.swift */; };
 		F29052DA204D794300EA7E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29052D9204D794300EA7E48 /* ViewController.swift */; };
 		F29052DD204D794300EA7E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29052DB204D794300EA7E48 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		F29052E5204D794300EA7E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29052E3204D794300EA7E48 /* LaunchScreen.storyboard */; };
 		F29052F0204D794400EA7E48 /* telasAutoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29052EF204D794400EA7E48 /* telasAutoTests.swift */; };
 		F29052FB204D794400EA7E48 /* telasAutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29052FA204D794400EA7E48 /* telasAutoUITests.swift */; };
+		F290530B204DD8D900EA7E48 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2905309204DD8D800EA7E48 /* CustomButton.swift */; };
+		F290530C204DD8D900EA7E48 /* CustomLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F290530A204DD8D900EA7E48 /* CustomLabels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2843EB220503371002C272D /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		F29052D4204D794300EA7E48 /* telasAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telasAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29052D7204D794300EA7E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29052D9204D794300EA7E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,9 @@
 		F29052F6204D794400EA7E48 /* telasAutoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telasAutoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29052FA204D794400EA7E48 /* telasAutoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = telasAutoUITests.swift; sourceTree = "<group>"; };
 		F29052FC204D794400EA7E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2905309204DD8D800EA7E48 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F290530A204DD8D900EA7E48 /* CustomLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabels.swift; sourceTree = "<group>"; };
+		F2905337204F1C7800EA7E48 /* teste.SO */ = {isa = PBXFileReference; lastKnownFileType = folder; name = teste.SO; path = ../teste.SO; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,7 @@
 				F29052EE204D794400EA7E48 /* telasAutoTests */,
 				F29052F9204D794400EA7E48 /* telasAutoUITests */,
 				F29052D5204D794300EA7E48 /* Products */,
+				F290530E204EEDD100EA7E48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +107,10 @@
 		F29052D6204D794300EA7E48 /* telasAuto */ = {
 			isa = PBXGroup;
 			children = (
+				F2905308204DD8C300EA7E48 /* Custom */,
 				F29052D7204D794300EA7E48 /* AppDelegate.swift */,
 				F29052D9204D794300EA7E48 /* ViewController.swift */,
+				F2843EB220503371002C272D /* CadastroViewController.swift */,
 				F29052DB204D794300EA7E48 /* Main.storyboard */,
 				F29052E1204D794300EA7E48 /* Assets.xcassets */,
 				F29052E3204D794300EA7E48 /* LaunchScreen.storyboard */,
@@ -126,6 +136,23 @@
 				F29052FC204D794400EA7E48 /* Info.plist */,
 			);
 			path = telasAutoUITests;
+			sourceTree = "<group>";
+		};
+		F2905308204DD8C300EA7E48 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F2905309204DD8D800EA7E48 /* CustomButton.swift */,
+				F290530A204DD8D900EA7E48 /* CustomLabels.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		F290530E204EEDD100EA7E48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2905337204F1C7800EA7E48 /* teste.SO */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F290530B204DD8D900EA7E48 /* CustomButton.swift in Sources */,
+				F2843EB320503371002C272D /* CadastroViewController.swift in Sources */,
 				F29052E0204D794300EA7E48 /* telasAuto.xcdatamodeld in Sources */,
+				F290530C204DD8D900EA7E48 /* CustomLabels.swift in Sources */,
 				F29052DA204D794300EA7E48 /* ViewController.swift in Sources */,
 				F29052D8204D794300EA7E48 /* AppDelegate.swift in Sources */,
 			);

@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var stackLogin: UIStackView!
     @IBOutlet weak var stackButtons: UIStackView!
+    @IBOutlet weak var nomeText: UITextField!
     
     let screen = UIScreen.main.bounds
     
@@ -42,6 +43,8 @@ class ViewController: UIViewController {
         
         stackLogin.spacing = CGFloat(CFloat(tamanho[0]))
         stackButtons.spacing = CGFloat(CFloat(tamanho[1]))
+        nomeText.layer.cornerRadius = 20
+        
         
     }
 
