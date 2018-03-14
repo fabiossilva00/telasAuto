@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2649C892059BC7C00FDA5E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2649C882059BC7B00FDA5E6 /* HomeViewController.swift */; };
 		F2843EB320503371002C272D /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2843EB220503371002C272D /* CadastroViewController.swift */; };
+		F2843EC12051571C002C272D /* CadastroBilheteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2843EC02051571C002C272D /* CadastroBilheteViewController.swift */; };
 		F29052D8204D794300EA7E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29052D7204D794300EA7E48 /* AppDelegate.swift */; };
 		F29052DA204D794300EA7E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29052D9204D794300EA7E48 /* ViewController.swift */; };
 		F29052DD204D794300EA7E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29052DB204D794300EA7E48 /* Main.storyboard */; };
@@ -38,7 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2649C882059BC7B00FDA5E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F2843EB220503371002C272D /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		F2843EC02051571C002C272D /* CadastroBilheteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroBilheteViewController.swift; sourceTree = "<group>"; };
 		F29052D4204D794300EA7E48 /* telasAuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telasAuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29052D7204D794300EA7E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29052D9204D794300EA7E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,8 +115,10 @@
 				F29052D7204D794300EA7E48 /* AppDelegate.swift */,
 				F29052D9204D794300EA7E48 /* ViewController.swift */,
 				F2843EB220503371002C272D /* CadastroViewController.swift */,
+				F2649C882059BC7B00FDA5E6 /* HomeViewController.swift */,
 				F29052DB204D794300EA7E48 /* Main.storyboard */,
 				F29052E1204D794300EA7E48 /* Assets.xcassets */,
+				F2843EC02051571C002C272D /* CadastroBilheteViewController.swift */,
 				F29052E3204D794300EA7E48 /* LaunchScreen.storyboard */,
 				F29052E6204D794300EA7E48 /* Info.plist */,
 				F29052DE204D794300EA7E48 /* telasAuto.xcdatamodeld */,
@@ -289,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2843EC12051571C002C272D /* CadastroBilheteViewController.swift in Sources */,
 				F290530B204DD8D900EA7E48 /* CustomButton.swift in Sources */,
 				F2843EB320503371002C272D /* CadastroViewController.swift in Sources */,
+				F2649C892059BC7C00FDA5E6 /* HomeViewController.swift in Sources */,
 				F29052E0204D794300EA7E48 /* telasAuto.xcdatamodeld in Sources */,
 				F290530C204DD8D900EA7E48 /* CustomLabels.swift in Sources */,
 				F29052DA204D794300EA7E48 /* ViewController.swift in Sources */,
