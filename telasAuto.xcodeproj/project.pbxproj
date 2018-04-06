@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20DBC442069708300DD60D9 /* TipoCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20DBC432069708300DD60D9 /* TipoCompraViewController.swift */; };
+		F25D54B0205B0CD3003C4F34 /* POPOverViagemExtraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25D54AF205B0CD3003C4F34 /* POPOverViagemExtraViewController.swift */; };
 		F2649C892059BC7C00FDA5E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2649C882059BC7B00FDA5E6 /* HomeViewController.swift */; };
 		F2843EB320503371002C272D /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2843EB220503371002C272D /* CadastroViewController.swift */; };
 		F2843EC12051571C002C272D /* CadastroBilheteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2843EC02051571C002C272D /* CadastroBilheteViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20DBC432069708300DD60D9 /* TipoCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoCompraViewController.swift; sourceTree = "<group>"; };
+		F25D54AF205B0CD3003C4F34 /* POPOverViagemExtraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPOverViagemExtraViewController.swift; sourceTree = "<group>"; };
 		F2649C882059BC7B00FDA5E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F2843EB220503371002C272D /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		F2843EC02051571C002C272D /* CadastroBilheteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroBilheteViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				F29052D9204D794300EA7E48 /* ViewController.swift */,
 				F2843EB220503371002C272D /* CadastroViewController.swift */,
 				F2649C882059BC7B00FDA5E6 /* HomeViewController.swift */,
+				F25D54AF205B0CD3003C4F34 /* POPOverViagemExtraViewController.swift */,
+				F20DBC432069708300DD60D9 /* TipoCompraViewController.swift */,
 				F29052DB204D794300EA7E48 /* Main.storyboard */,
 				F29052E1204D794300EA7E48 /* Assets.xcassets */,
 				F2843EC02051571C002C272D /* CadastroBilheteViewController.swift */,
@@ -295,10 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20DBC442069708300DD60D9 /* TipoCompraViewController.swift in Sources */,
 				F2843EC12051571C002C272D /* CadastroBilheteViewController.swift in Sources */,
 				F290530B204DD8D900EA7E48 /* CustomButton.swift in Sources */,
 				F2843EB320503371002C272D /* CadastroViewController.swift in Sources */,
 				F2649C892059BC7C00FDA5E6 /* HomeViewController.swift in Sources */,
+				F25D54B0205B0CD3003C4F34 /* POPOverViagemExtraViewController.swift in Sources */,
 				F29052E0204D794300EA7E48 /* telasAuto.xcdatamodeld in Sources */,
 				F290530C204DD8D900EA7E48 /* CustomLabels.swift in Sources */,
 				F29052DA204D794300EA7E48 /* ViewController.swift in Sources */,

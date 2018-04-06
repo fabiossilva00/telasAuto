@@ -40,11 +40,11 @@ class CadastroBilheteViewController: UIViewController {
         
         switch screenHeight {
         case 568: // SE
-            return [13, 25, 61, 29]
+            return [25, 13, 61, 29]
         case 667: // 8
-            return [16, 27, 65, 36]
+            return [27, 16, 65, 36]
         case 812: // X
-            return [27, 42, 71, 56]
+            return [42, 27, 71, 56]
         case 736: // 8 Plus
             return [27, 16, 68, 46]
         default:

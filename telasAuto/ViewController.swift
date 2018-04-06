@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     let screen = UIScreen.main.bounds
     
+    //MARK: - Verificacao tela para alteracoes Layout
     //0 - Stack Login
     //1 - Stack Buttons
     
@@ -44,6 +45,7 @@ class ViewController: UIViewController {
         stackLogin.spacing = CGFloat(CFloat(tamanho[0]))
         stackButtons.spacing = CGFloat(CFloat(tamanho[1]))
         nomeText.layer.cornerRadius = 20
+        nomeText.font = UIFont.systemFont(ofSize: 10, weight: UIFont.Weight.regular)
         
         
     }
