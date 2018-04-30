@@ -22,6 +22,7 @@
 		F29052FB204D794400EA7E48 /* telasAutoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29052FA204D794400EA7E48 /* telasAutoUITests.swift */; };
 		F290530B204DD8D900EA7E48 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2905309204DD8D800EA7E48 /* CustomButton.swift */; };
 		F290530C204DD8D900EA7E48 /* CustomLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F290530A204DD8D900EA7E48 /* CustomLabels.swift */; };
+		F2E22479207BED2F0021E96B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E22478207BED2F0021E96B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F2905309204DD8D800EA7E48 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		F290530A204DD8D900EA7E48 /* CustomLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabels.swift; sourceTree = "<group>"; };
 		F2905337204F1C7800EA7E48 /* teste.SO */ = {isa = PBXFileReference; lastKnownFileType = folder; name = teste.SO; path = ../teste.SO; sourceTree = "<group>"; };
+		F2E22478207BED2F0021E96B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				F29052D9204D794300EA7E48 /* ViewController.swift */,
 				F2843EB220503371002C272D /* CadastroViewController.swift */,
 				F2649C882059BC7B00FDA5E6 /* HomeViewController.swift */,
+				F2E22478207BED2F0021E96B /* TableViewController.swift */,
 				F25D54AF205B0CD3003C4F34 /* POPOverViagemExtraViewController.swift */,
 				F20DBC432069708300DD60D9 /* TipoCompraViewController.swift */,
 				F29052DB204D794300EA7E48 /* Main.storyboard */,
@@ -307,6 +310,7 @@
 				F2843EB320503371002C272D /* CadastroViewController.swift in Sources */,
 				F2649C892059BC7C00FDA5E6 /* HomeViewController.swift in Sources */,
 				F25D54B0205B0CD3003C4F34 /* POPOverViagemExtraViewController.swift in Sources */,
+				F2E22479207BED2F0021E96B /* TableViewController.swift in Sources */,
 				F29052E0204D794300EA7E48 /* telasAuto.xcdatamodeld in Sources */,
 				F290530C204DD8D900EA7E48 /* CustomLabels.swift in Sources */,
 				F29052DA204D794300EA7E48 /* ViewController.swift in Sources */,

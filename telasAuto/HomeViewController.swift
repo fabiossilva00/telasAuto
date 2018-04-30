@@ -15,11 +15,20 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var viagemButton: UIButton!
     
+    @IBOutlet var labelsTeste: [UILabel]!
+    
+    
     func atualizaTela() {
         
         let tamanho = tamanhoHeight()
         
         viagemButton.layer.cornerRadius = viagemButton.frame.height / 2
+        
+        labelsTeste.forEach({ labelMudar in
+            
+            labelMudar.textColor = UIColor.red
+            
+        })
 
     }
     
